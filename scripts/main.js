@@ -242,17 +242,17 @@ function draw()
 	scorea();    
 	gameover();
 }
-requestAnimationFrame(move,300);
+requestAnimationFrame(move,100);
 function move()
 {
 	
 	var z=event.key;
 	if(z=="ArrowRight")
-	{	x+=200;
+	{	x+=100;
 		draw();
 	}
 	if(z=="ArrowLeft")
-	{	x-=200;
+	{	x-=100;
 		draw();
 	}
 	
