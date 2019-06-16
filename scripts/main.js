@@ -242,20 +242,22 @@ function draw()
 	scorea();    
 	gameover();
 }
-
+requestAnimationFrame(move,300);
 function move()
 {
+	
 	var z=event.key;
 	if(z=="ArrowRight")
-	{	x+=5;
+	{	x+=1000;
 		draw();
 	}
 	if(z=="ArrowLeft")
-	{	x-=5;
+	{	x-=1000;
 		draw();
 	}
 	
 }
+
 
 setInterval(draw,50); 
 document.addEventListener("keydown",move);
