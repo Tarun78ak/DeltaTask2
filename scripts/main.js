@@ -242,7 +242,6 @@ function draw()
 	scorea();    
 	gameover();
 }
-requestAnimationFrame(move,100);
 function move()
 {
 	
