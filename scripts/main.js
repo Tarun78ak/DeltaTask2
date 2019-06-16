@@ -247,11 +247,11 @@ function move()
 	
 	var z=event.key;
 	if(z=="ArrowRight")
-	{	x+=100;
+	{	x+=50;
 		draw();
 	}
 	if(z=="ArrowLeft")
-	{	x-=100;
+	{	x-=50;
 		draw();
 	}
 	
